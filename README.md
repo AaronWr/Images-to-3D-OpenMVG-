@@ -52,3 +52,4 @@ Jetzt beginnen wir mit dem eigentlichen Programm. Unsere Daten Struktur sollte j
 		|___res
 			|___images
 			|___output
+		|___src
