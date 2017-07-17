@@ -3,7 +3,7 @@
 zuerst hollen brauchen wir diesen Code.
 
 	$ git clone https://github.com/AaronWr/Images-to-3D-OpenMVG-.git
-  $ cd Images-to-3D-OpenMVG-
+	$ cd Images-to-3D-OpenMVG-
 
 Es sind folgende Programme notwending zu installieren bevor wir anfangen können.
 
