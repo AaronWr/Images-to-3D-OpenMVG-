@@ -45,7 +45,7 @@ Um mve nutzen zu können müssen wir die Sources Compilen :
 
 Jetzt beginnen wir mit dem eigentlichen Programm. Unsere Daten Struktur sollte jetzt wie folgt aussehen wenn wir den "res" ordner noch manuel hinzufügen, und im images ordner kommen unsere Bilder die gescannt werden.
 
-	home
+	Images-to-3D-OpenMVG-
 		|___mve
 		|___openMVG
 		|___openMVG_Build
