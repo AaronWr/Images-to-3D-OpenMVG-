@@ -42,7 +42,7 @@ oder mit multi-core compiliere. ( cores für die anzahl der Threads )
 
 	$ make -j cores
 
-MVE ist notwendig fuer das Programm
+MVE ist notwendig für das Programm
 Um mve nutzen zu können müssen wir die Sources Compilen : 
 
 	$ git clone https://github.com/simonfuhrmann/mve.git
@@ -50,7 +50,7 @@ Um mve nutzen zu können müssen wir die Sources Compilen :
 	$ make -j cores
 
 
-Jetzt beginnen wir mit dem eigentlichen Programm. Unsere Daten Struktur sollte jetzt wie folgt aussehen wenn wir den "res" ordner noch manuel hinzufügen, und im images ordner kommen unsere Bilder die gescannt werden.
+Die Daten Struktur sollte jetzt wie folgt aussehen. Die Bilder für das Programm sollen in den Ordener "res/images"
 
 	Images-to-3D-OpenMVG-
 		|___mve
