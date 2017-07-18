@@ -3,6 +3,8 @@
 Dieses einfache Programm soll mit einem Einzigen Aufruff aus, einige Bider zu einem fertigen 3D Model generieren.
 Dafür werden die Librarzs OpenMVG und MVE verwendet.
 
+Link zu OpenMVG: https://github.com/openMVG/openMVG
+
 ## Building
 
 zuerst hollen wir uns diesen Code.
