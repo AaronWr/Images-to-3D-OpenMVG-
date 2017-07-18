@@ -1,6 +1,6 @@
 # Images-to-3D-OpenMVG-
 
-zuerst hollen brauchen wir diesen Code.
+zuerst hollen wir uns diesen Code.
 
 	$ git clone https://github.com/AaronWr/Images-to-3D-OpenMVG-.git
 	$ cd Images-to-3D-OpenMVG-
