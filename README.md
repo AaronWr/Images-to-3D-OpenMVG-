@@ -1,4 +1,9 @@
-# Images-to-3D-OpenMVG-
+## Introduction
+
+Dieses einfache Programm soll mit einem Einzigen Aufruff aus, einige Bider zu einem fertigen 3D Model generieren.
+Dafür werden die Librarzs OpenMVG und MVE verwendet.
+
+## Building
 
 zuerst hollen wir uns diesen Code.
 
