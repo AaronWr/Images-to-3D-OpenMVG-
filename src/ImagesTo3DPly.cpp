@@ -50,6 +50,7 @@ int main(int argc, char *argv[])
 	ch.clear();
 	ch = openMVE_path + "scene2pset/scene2pset -F2 " + res_path + "output/OutRecon/MVE/ " + res_path + "output/OutRecon/MVE/pset-L2.ply";
 	system(ch.c_str());
+	
 	// Meshing
 	ch.clear();
 	ch = openMVE_path + "fssrecon/fssrecon " + res_path + "output/OutRecon/MVE/pset-L2.ply " + res_path + "output/OutRecon/surface-L2.ply";
@@ -57,7 +58,6 @@ int main(int argc, char *argv[])
 
 	// Meshing Cleaning
 	ch.clear();
-	ch = openMVE_path + 
-	ch = "meshclean/meshclean -t10 " + res_path + "output/OutRecon/surface-L2.ply " + res_path + "output/OutRecon/surface-L2-clean.ply";
+	ch = openMVE_path + "meshclean/meshclean -t10 " + res_path + "output/OutRecon/surface-L2.ply " + res_path + "output/OutRecon/surface-L2-clean.ply";
 	system(ch.c_str());
 }
