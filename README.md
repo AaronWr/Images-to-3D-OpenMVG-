@@ -19,7 +19,7 @@ Dann ist es notwendig folgende Programme zu installieren.
  - c/c++ compiler ( gcc )   version >= 4.8.1
 
 
-Mit dem folgender command werden die erforderlichen libraries installiert.
+Mit dem folgendern command werden die erforderlichen libraries installiert.
 
 	$ sudo apt-get install libpng-dev libjpeg-dev libtiff-dev libxxf86vm1 libxxf86vm-dev 
 	   libxrandr-dev
