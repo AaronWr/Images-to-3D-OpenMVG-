@@ -7,25 +7,25 @@ Link zu OpenMVG: https://github.com/openMVG/openMVG
 
 ## Building
 
-Zuerst holen wir uns diesen Code.
+Zuerst holen wir uns diesen code.
 
 	$ git clone https://github.com/AaronWr/Images-to-3D-OpenMVG-.git
 	$ cd Images-to-3D-OpenMVG-
 
-Bevor wir anfangen können ist es notwendig folgende Programme zu installieren.
+Dann ist es notwendig folgende Programme zu installieren.
 
  - Cmake
  - Git
  - c/c++ compiler ( gcc )   version >= 4.8.1
 
 
-Mit dem folgender command werden die erforderlichen Librarys installiert.
+Mit dem folgender command werden die erforderlichen libraries installiert.
 
 	$ sudo apt-get install libpng-dev libjpeg-dev libtiff-dev libxxf86vm1 libxxf86vm-dev 
 	   libxrandr-dev
 
 
-Dann holen wir uns die OpenMVG Sources.
+Dann holen wir uns die OpenMVG sources.
 
 	$ git clone --recursive https://github.com/openMVG/openMVG.git
 	$ mkdir openMVG_Build
@@ -34,16 +34,16 @@ Dann holen wir uns die OpenMVG Sources.
 	$ cmake -DCMAKE_BUILD_TYPE=RELEASE . ../openMVG/src/
 
 
-Jetzt muss das Project kompiliert werden
+Jetzt muss das Projekt compiled...
 
 	$ make
 
-Oder mit multi-core compiliere. ( cores für die anzahl der Threads )
+ ... oder mit multi-core compiled werden. ( cores für die Anzahl der Threads )
 
 	$ make -j cores
 
 MVE ist notwendig für das Programm.  
-Um MVE nutzen zu können müssen wir die Sources compilen : 
+Um MVE nutzen zu können müssen wir die sources compilen : 
 
 	$ git clone https://github.com/simonfuhrmann/mve.git
 	$ cd mve
@@ -59,6 +59,6 @@ Die Datenstruktur sollte jetzt wie folgt aussehen.
 		|___src
 
 
-Das Programm kann dann mit nur einer Zeile verwendet werden:
+Jetzt kann das Programm mit einer einzigen Zeile verwendet werden :
 
 	$ ./src/ImagesTo3DPly.o [pfad mit Images]
