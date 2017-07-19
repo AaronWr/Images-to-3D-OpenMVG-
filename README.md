@@ -1,7 +1,7 @@
 ## Introduction
 
-Dieses einfache Programm soll mit einem einzigen Aufruf aus, einige Bider zu einem fertigen 3D Model generieren.
-Dafür werden die Librarys OpenMVG und MVE verwendet. In diesem Fall wird die Installation auf Linux umgesetzt.
+Dieses einfache Programm soll mit einem einzigen Aufruf aus, einige Bilder zu einem fertigen 3D Model generieren.
+Dafür werden die libraries OpenMVG und MVE verwendet. In diesem Fall wird die Installation auf Linux umgesetzt.
 
 Link zu OpenMVG: https://github.com/openMVG/openMVG
 
@@ -19,7 +19,7 @@ Dann ist es notwendig folgende Programme zu installieren.
  - c/c++ compiler ( gcc )   version >= 4.8.1
 
 
-Mit dem folgendern command werden die erforderlichen libraries installiert.
+Mit dem folgenden command werden die erforderlichen libraries installiert.
 
 	$ sudo apt-get install libpng-dev libjpeg-dev libtiff-dev libxxf86vm1 libxxf86vm-dev 
 	   libxrandr-dev
