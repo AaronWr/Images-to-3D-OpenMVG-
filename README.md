@@ -42,7 +42,7 @@ oder mit multi-core compiliere. ( cores für die anzahl der Threads )
 
 	$ make -j cores
 
-MVE ist notwendig für das Programm
+MVE ist notwendig für das Programm.  
 Um MVE nutzen zu können müssen wir die Sources compilen : 
 
 	$ git clone https://github.com/simonfuhrmann/mve.git
