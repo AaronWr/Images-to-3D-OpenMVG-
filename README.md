@@ -1,7 +1,7 @@
 ## Introduction
 
 Dieses einfache Programm soll mit einem Einzigen Aufruff aus, einige Bider zu einem fertigen 3D Model generieren.
-Dafür werden die Librarzs OpenMVG und MVE verwendet.
+Dafür werden die Librarzs OpenMVG und MVE verwendet. In diesm fall wird die installation auf Linux umgesetzt.
 
 Link zu OpenMVG: https://github.com/openMVG/openMVG
 
@@ -56,7 +56,9 @@ Die Daten Struktur sollte jetzt wie folgt aussehen. Die Bilder für das Programm
 		|___mve
 		|___openMVG
 		|___openMVG_Build
-		|___res
-			|___images
-			|___output
 		|___src
+
+
+Das Programm kann dann mit nur einer Zeile verwendet werden:
+
+	$ ./src/ImagesTo3DPly.o [pfad mit Images]
