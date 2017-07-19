@@ -7,19 +7,19 @@ Link zu OpenMVG: https://github.com/openMVG/openMVG
 
 ## Building
 
-zuerst holen wir uns diesen Code.
+Zuerst holen wir uns diesen Code.
 
 	$ git clone https://github.com/AaronWr/Images-to-3D-OpenMVG-.git
 	$ cd Images-to-3D-OpenMVG-
 
-Es sind folgende Programme notwendig zu installieren bevor wir anfangen können.
+Bevor wir anfangen können ist es notwendig folgende Programme zu installieren.
 
  - Cmake
  - Git
  - c/c++ compiler ( gcc )   version >= 4.8.1
 
 
-erforderliche externe Librarys werden installiert.
+Mit dem folgender command werden die erforderlichen Librarys installiert.
 
 	$ sudo apt-get install libpng-dev libjpeg-dev libtiff-dev libxxf86vm1 libxxf86vm-dev 
 	   libxrandr-dev
@@ -34,11 +34,11 @@ Dann holen wir uns die OpenMVG Sources.
 	$ cmake -DCMAKE_BUILD_TYPE=RELEASE . ../openMVG/src/
 
 
-jetzt muss das Project kompiliert werden
+Jetzt muss das Project kompiliert werden
 
 	$ make
 
-oder mit multi-core compiliere. ( cores für die anzahl der Threads )
+Oder mit multi-core compiliere. ( cores für die anzahl der Threads )
 
 	$ make -j cores
 
